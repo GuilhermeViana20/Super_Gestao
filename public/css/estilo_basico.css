@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+/* MENU */
+
+.navbar-dark.bg-dark {
+    background-color: #121214 !important;
+}
+
+.titulo-page {
+    background-color: #9466ff;
+    color: white;
+    font-weight: 600;
+}
+
+.menu-paginas {
+    background-color: #111012;
+}
+
+.menu-paginas .nav-link {
+    color: #737380;
+    border-bottom: 2px solid transparent;
+}
+
+.menu-paginas .nav-link:hover {
+    color: white;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+    border-bottom: 2px solid #9466ff;
+}
+
+.logo {
+    width: 45px !important;
+}
+
+.logo_home {
+    width: 60%;
+}
+
+/* BOTÃO */
+
+.btn-purple {
+    background-color: #9466ff !important;
+    color: white !important;
+}
+
+.btn-purple:hover {
+    background-color: #815adb !important;
+    color: white !important;
+}
+
+/* ÍCONES */
+
+.lista-icones img {
+    width: 45px;
+}
+
+.marketing-icon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #121214 !important;
+    width: 100%;
+    display: block;
+}
